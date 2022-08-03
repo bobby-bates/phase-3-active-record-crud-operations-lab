@@ -1,4 +1,5 @@
 # Add seed data here. Seed your database with `rake db:seed`
+puts 'Seeding...'
 
 Movie.create(title: "Wargames", release_date: 1983, director: "John Badham", lead: "Matthew Broderick", in_theaters: false)
 
@@ -9,3 +10,5 @@ Movie.create(title: "Nebraska", release_date: 2013, director: "Alexander Payne",
 Movie.create(title: "Muppets Most Wanted", release_date: 2014, director: "James Bobin", lead: "Tom Hiddleston", in_theaters: true)
 
 Movie.create(title: "Zero Dark Thirty", release_date: 2012, director: "Kathryn Bigelow", lead: "Jessica Chastain", in_theaters: false)
+
+puts 'Seeding complete!'
